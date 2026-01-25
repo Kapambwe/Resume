@@ -272,6 +272,19 @@ ul {
   background: linear-gradient(180deg, #fffaf5, #ffffff);
 }
 
+.project-card .summary + ul {
+  margin-top: 8px;
+}
+
+.project-card ul + .summary,
+.project-card ul + p {
+  margin-top: 12px;
+}
+
+.project-card ul + ul {
+  margin-top: 10px;
+}
+
 .project-card a {
   color: var(--accent-2);
   font-weight: 600;
@@ -282,12 +295,31 @@ ul {
   gap: 8px;
 }
 
-.articles span {
-  display: inline-block;
+.articles a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   padding: 10px 12px;
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.75);
   border: 1px solid rgba(28, 30, 38, 0.08);
+  font-weight: 600;
+  color: var(--ink);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.articles a:hover,
+.articles a:focus-visible {
+  transform: translateY(-1px);
+  border-color: rgba(15, 118, 110, 0.35);
+  box-shadow: 0 12px 24px rgba(16, 24, 40, 0.12);
+  outline: none;
+}
+
+.articles a::after {
+  content: "↗";
+  font-size: 0.9rem;
+  color: var(--accent);
 }
 
 footer {
