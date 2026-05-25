@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abraham Kapambwe | Software Developer</title>
+  <meta name="description" content="Professional profile for Abraham Kapambwe, C# Developer, Analytics Engineer, and DevOps Engineer." />
+  <meta name="theme-color" content="#0f766e" />
+  <meta property="og:title" content="Abraham Kapambwe | Software Developer" />
+  <meta property="og:description" content="C# Developer, Analytics Engineer, and DevOps Engineer with 14+ years building scalable systems and data platforms." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-image.png" />
+  <meta property="og:image:alt" content="Abraham Kapambwe professional profile" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/favicon.png" type="image/png" />
+  <link rel="icon" href="assets/favicon.ico" sizes="any" />
+  <link rel="apple-touch-icon" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script>
+    (function () {
+      var key = "ak-theme";
+      var theme = "light";
+
+      try {
+        var stored = localStorage.getItem(key);
+        if (stored === "dark" || stored === "light") {
+          theme = stored;
+        } else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          theme = "dark";
+        }
+      } catch (e) {
+        if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          theme = "dark";
+        }
+      }
+
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.style.colorScheme = theme;
+    })();
+  </script>
+  <link rel="stylesheet" href="style.min.css" />
+</head>
+<body>
+  <div class="topbar" role="navigation" aria-label="Section navigation">
+    <a class="topbar-brand" href="#top">
+      <span class="topbar-mark">AK</span>
+      <span class="topbar-title">Abraham Kapambwe</span>
+    </a>
+    <nav class="topbar-nav">
+      <a class="topbar-link" href="#profile">Profile</a>
+      <a class="topbar-link" href="#skills">Skills</a>
+      <a class="topbar-link" href="#experience">Experience</a>
+      <a class="topbar-link" href="#projects">Projects</a>
+      <a class="topbar-link" href="#education">Education</a>
+      <a class="topbar-link" href="#writing">Writing</a>
+    </nav>
+    <div class="topbar-progress" aria-label="Reading progress">
+      <span class="topbar-progress-label">Reading progress</span>
+      <div class="topbar-progress-track" aria-hidden="true">
+        <span class="topbar-progress-fill" id="pageProgress"></span>
+      </div>
+    </div>
+  </div>
+  <div class="page">
+    <header class="hero" id="top">
+      <div class="hero-left">
+        <div class="brand-line">
+          <div class="brand-mark">AK</div>
+          <p class="chip">C# Developer | Analytics Engineer | DevOps Engineer</p>
+          <button class="theme-toggle" id="themeToggle" type="button" aria-pressed="false">
+            <span class="theme-toggle-label">Dark mode</span>
+          </button>
+        </div>
+        <p class="hero-overline">Engineering systems where software, data, and automation converge.</p>
+        <h1 class="title">Abraham Kapambwe</h1>
+        <p class="subtitle">14+ years building scalable systems, data platforms, and cloud-native solutions with a focus on measurable delivery.</p>
+        <div class="stats-row" aria-label="Profile highlights">
+          <div class="stat-card">
+            <strong>14+</strong>
+            <span>Years of delivery</span>
+          </div>
+          <div class="stat-card">
+            <strong>20+</strong>
+            <span>Payment providers integrated</span>
+          </div>
+          <div class="stat-card">
+            <strong>3</strong>
+            <span>Cloud platforms in scope</span>
+          </div>
+        </div>
+        <div class="chip-row">
+          <span class="chip">Pretoria, South Africa</span>
+          <span class="chip">Azure + AWS + Google Cloud</span>
+          <span class="chip">Microsoft Fabric + Power BI</span>
+          <span class="chip accent">MVP Track: Microsoft Fabric</span>
+        </div>
+      </div>
+      <div class="card hero-card">
+        <div class="profile-card">
+          <picture>
+            <source srcset="assets/headshot.jpg" type="image/jpeg" />
+            <source srcset="assets/headshot.png" type="image/png" />
+            <img class="avatar-image" src="assets/headshot.svg" alt="Abraham Kapambwe headshot" loading="lazy" decoding="async" />
+          </picture>
+          <div class="hero-copy">
+            <p class="hero-kicker">Selected focus</p>
+            <p class="profile-name">Cloud-native delivery, data platforms, and applied analytics.</p>
+            <p class="profile-title">Building modern systems with .NET, Microsoft Fabric, and real-time event-driven architecture.</p>
+            <p class="profile-location">Based in Pretoria, South Africa</p>
+          </div>
+        </div>
+        <div class="hero-focus-grid">
+          <div class="hero-focus">
+            <span>Delivery</span>
+            <strong>Scalable .NET systems</strong>
+          </div>
+          <div class="hero-focus">
+            <span>Data</span>
+            <strong>Fabric, Spark, Power BI</strong>
+          </div>
+          <div class="hero-focus">
+            <span>Automation</span>
+            <strong>DevOps, IaC, CI/CD</strong>
+          </div>
+        </div>
+        <div class="contact-grid">
+          <a href="mailto:abrahamkapambwe@gmail.com">Email <span>abrahamkapambwe@gmail.com</span></a>
+          <a href="https://za.linkedin.com/in/abrahamkapambwe">LinkedIn <span>Profile</span></a>
+          <a href="tel:+27784452333">Phone <span>+27 78 445 2333</span></a>
+          <a href="https://github.com/Kapambwe">GitHub <span>Kapambwe</span></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="reveal profile-section" id="profile">
+      <div class="section-head">
+        <div>
+          <div class="section-index">01</div>
+          <h2>Professional Profile</h2>
+          <p class="section-lead">A concise summary of the value I bring across engineering, data, and delivery.</p>
+        </div>
+      </div>
+      <div class="card">
+        <p class="summary">
+          Experienced full-stack developer focused on modern .NET, data engineering, and cloud-native DevOps.
+          Skilled in designing real-time data pipelines with Apache Spark, deploying infrastructure with Terraform
+          and Ansible, and transforming data into intelligent systems through Microsoft Fabric, Power BI, and ML.
+          Proven in microservices, container orchestration, and knowledge graphs, with domain impact across finance,
+          telecom, public sector, and more. Actively pursuing recognition as a Microsoft MVP in Microsoft Fabric.
+        </p>
+      </div>
+    </section>
+
+    <section class="reveal skills-section" id="skills">
+      <div class="section-head">
+        <div>
+          <div class="section-index">02</div>
+          <h2>Technical Summary</h2>
+          <p class="section-lead">A practical stack spanning product delivery, data platforms, and infrastructure.</p>
+        </div>
+      </div>
+      <div class="skill-grid">
+        <div class="skill-card">
+          <h3>Languages & Frameworks</h3>
+          <p>C#, .NET (Core 3-8), Python, Blazor, ASP.NET MVC, JavaScript.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Web & UI</h3>
+          <p>React, Angular, ASP.NET Forms, Knockout.js.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Data & Analytics</h3>
+          <p>SQL, Couchbase, Apache Spark, Databricks, Power BI.</p>
+        </div>
+        <div class="skill-card">
+          <h3>DevOps & Infra</h3>
+          <p>Azure DevOps, Docker, Kubernetes, Terraform, CI/CD pipelines.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Cloud & Platforms</h3>
+          <p>Azure, AWS, Google Cloud, Windows Server, Linux.</p>
+        </div>
+        <div class="skill-card">
+          <h3>AI & ML</h3>
+          <p>Graph DBs (Neo4j, Memgraph), NLP pipelines, TensorFlow, GANs.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="reveal experience-section" id="experience">
+      <div class="section-head">
+        <div>
+          <div class="section-index">03</div>
+          <h2>Work Experience</h2>
+          <p class="section-lead">Selected roles with emphasis on systems, platforms, and measurable delivery.</p>
+        </div>
+      </div>
+      <div class="experience timeline">
+        <div class="card role">
+          <h3>Software Developer | Derivco</h3>
+          <div class="meta">Mar 2019 - Present</div>
+          <p class="summary">Focused on API development, payment integrations, DevOps automation, and big data processing.</p>
+          <ul>
+            <li>Integrated wallet systems with 20+ global payment providers including PayPal, Stripe, and crypto.</li>
+            <li>Supported migration from legacy IIS apps to containerized microservices with Docker and Kubernetes.</li>
+            <li>Built Spark pipelines for log processing via Kafka and analytics in a Databricks lakehouse.</li>
+            <li>Automated multi-layered API testing and CI/CD pipelines in Azure DevOps.</li>
+            <li>Applied Infrastructure as Code with Terraform across Azure.</li>
+          </ul>
+        </div>
+
+        <div class="card role">
+          <h3>Senior Developer | Ignition Group</h3>
+          <div class="meta">Dec 2016 - Feb 2019</div>
+          <p class="summary">Delivered enterprise applications for contract management, billing, and call center tooling.</p>
+          <ul>
+            <li>Designed lifecycle workflows with Service Fabric for phone contracts.</li>
+            <li>Automated multi-bank data processing for financial operations.</li>
+            <li>Built and evolved a robust billing system with continuous enhancements.</li>
+            <li>Developed a Twilio softphone platform to improve call center efficiency.</li>
+            <li>Applied SOLID principles for clean, maintainable architecture.</li>
+          </ul>
+        </div>
+
+        <div class="card role">
+          <h3>Software Developer | SA Web Design</h3>
+          <div class="meta">Jun 2012 - Dec 2016</div>
+          <p class="summary">Built a sports betting system using MVC, WCF services, and ASP.NET UI tooling.</p>
+          <ul>
+            <li>Created data capture interfaces integrated with WCF services.</li>
+            <li>Designed relational data models with constraints, stored procedures, and audits.</li>
+            <li>Produced operational and analytical reports with SSRS.</li>
+            <li>Managed deployments to IIS and SQL Server with TFS workflows.</li>
+            <li>Resolved defects identified during testing for stability.</li>
+          </ul>
+        </div>
+
+        <div class="card role">
+          <h3>Mobile Developer / Web Developer | immedia</h3>
+          <div class="meta">Sep 2011 - Jun 2012</div>
+          <ul>
+            <li>Built Android interfaces in Java from approved wireframes.</li>
+            <li>Integrated mobile front ends with a Ruby-based backend API.</li>
+            <li>Presented prototypes to clients and implemented feedback quickly.</li>
+            <li>Managed source control and collaboration through GitHub.</li>
+          </ul>
+        </div>
+
+        <div class="card role">
+          <h3>Web Developer | Epages</h3>
+          <div class="meta">Dec 2009 - Aug 2011</div>
+          <ul>
+            <li>Delivered ASP.NET web solutions for major retail clients.</li>
+            <li>Customized Sitefinity CMS for tailored content workflows.</li>
+            <li>Maintained client sites including Game, Spar, and Dion Wired.</li>
+            <li>Led client requirement reviews to ensure feature success.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="reveal projects-section" id="projects">
+      <div class="section-head">
+        <div>
+          <div class="section-index">04</div>
+          <h2>Weekend Projects & Applied Innovation</h2>
+          <p class="section-lead">Concept work and prototypes that show breadth beyond day-to-day delivery.</p>
+        </div>
+      </div>
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-top">
+            <div class="project-badge badge-graph">01</div>
+            <div class="project-kicker">Featured build</div>
+            <h3>Financial Crime Intelligence Platform</h3>
+            <p class="project-impact">Graph-first detection for hidden financial crime networks.</p>
+            <div class="project-tags" aria-label="Project tags">
+              <span class="tag">Graph</span>
+              <span class="tag">AML</span>
+              <span class="tag">Fraud</span>
+            </div>
+          </div>
+          <p class="summary">
+            An advanced investigation tool that uses graph analytics and graph algorithms to uncover financial crime patterns across fraud, money laundering, tax evasion, and related abuse.
+          </p>
+          <p class="summary">
+            It ingests PDFs, text files, news articles, and open intelligence sources. Agents parse documents, build relationships, and answer investigation questions.
+          </p>
+          <p class="summary"><a href="https://kapambwe.github.io/IntelligenceWebApp/">Live demo: IntelligenceWebApp</a></p>
+        </article>
+        <article class="project-card">
+          <div class="project-top">
+            <div class="project-badge badge-risk">02</div>
+            <h3>Institutional Risk Intelligence Platform</h3>
+            <p class="project-impact">Richer data points for sharper lending and investment decisions.</p>
+            <div class="project-tags" aria-label="Project tags">
+              <span class="tag">Risk</span>
+              <span class="tag">Lending</span>
+              <span class="tag">Decisioning</span>
+            </div>
+          </div>
+          <p class="summary">
+            A decisioning platform for pension funds, banks, mutual funds, insurance companies, and development finance institutions, designed to use richer data points to reduce lending and investment risk.
+          </p>
+          <p class="summary"><a href="https://kapambwe.github.io/ConsentWebApp/">Live demo: ConsentWebApp</a></p>
+        </article>
+        <article class="project-card">
+          <div class="project-top">
+            <div class="project-badge badge-payments">03</div>
+            <h3>Real-Time Payments Platform</h3>
+            <p class="project-impact">High-performance payments inspired by FedNow and UPI.</p>
+            <div class="project-tags" aria-label="Project tags">
+              <span class="tag">Payments</span>
+              <span class="tag">Orleans</span>
+              <span class="tag">Realtime</span>
+            </div>
+          </div>
+          <p class="summary">
+            A real-time payment system inspired by FedNow and India UPI, with Orleans powering high-performance, low-latency distributed processing.
+          </p>
+          <p class="summary"><a href="https://kapambwe.github.io/PaymentAdminWebApp/">Live demo: PaymentAdminWebApp</a></p>
+        </article>
+        <article class="project-card">
+          <div class="project-top">
+            <div class="project-badge badge-baas">04</div>
+            <h3>Banking as a Service Platform</h3>
+            <p class="project-impact">Composable financial services for faster product rollout.</p>
+            <div class="project-tags" aria-label="Project tags">
+              <span class="tag">BaaS</span>
+              <span class="tag">APIs</span>
+              <span class="tag">Platform</span>
+            </div>
+          </div>
+          <p class="summary">
+            A banking-as-a-service platform for banks, insurers, mutual funds, pension funds, and other financial players that need configurable services, faster product rollout, and cleaner integration.
+          </p>
+          <p class="summary"><a href="https://kapambwe.github.io/BankingFinanceWebApp/">Live demo: BankingFinanceWebApp</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="reveal education-section" id="education">
+      <div class="section-head">
+        <div>
+          <div class="section-index">05</div>
+          <h2>Education & Certifications</h2>
+          <p class="section-lead">Credentials and continuous learning across engineering, analytics, and applied AI.</p>
+        </div>
+      </div>
+      <div class="card">
+        <ul>
+          <li>Microsoft Certified Professional (2011-2014)</li>
+          <li>Coursera and Udemy: AI, Blockchain, TensorFlow, FinTech, CFA L1 modules</li>
+          <li>Udemy: Data Engineering (Azure, AWS, BigQuery), Power BI projects</li>
+          <li>NASA Earth Observation, Remote Sensing, Geospatial Intelligence</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="reveal articles-section" id="writing">
+      <div class="section-head">
+        <div>
+          <div class="section-index">06</div>
+          <h2>LinkedIn Articles & Publications</h2>
+          <p class="section-lead">Writing that reflects how I think about data, risk, platforms, and applied systems.</p>
+        </div>
+      </div>
+      <div class="articles">
+        <a href="https://www.linkedin.com/pulse/using-microsoft-fabric-combat-trade-based-money-abraham-kapambwe-d7qwf"><span class="article-eyebrow">Fabric / AML</span><span class="article-title">Using Microsoft Fabric to Combat Trade-Based Money Laundering</span></a>
+        <a href="https://www.linkedin.com/pulse/leveraging-microsoft-fabric-combat-financial-economic-kapambwe-fygof"><span class="article-eyebrow">Fabric / Crime</span><span class="article-title">Leveraging Microsoft Fabric to Combat Financial and Economic Crimes</span></a>
+        <a href="https://www.linkedin.com/pulse/revolutionizing-banking-operations-microsoft-fabric-guide-kapambwe-xlsvf"><span class="article-eyebrow">Banking / Fabric</span><span class="article-title">Revolutionizing Banking Operations with Microsoft Fabric</span></a>
+        <a href="https://www.linkedin.com/pulse/building-analytic-platform-microsoft-fabric-using-data-kapambwe-kr6hf"><span class="article-eyebrow">Analytics / Data</span><span class="article-title">Building an Analytic Platform on Microsoft Fabric</span></a>
+        <a href="https://www.linkedin.com/pulse/leveraging-machine-learning-combat-profit-shifting-pricing-kapambwe-z4lzf"><span class="article-eyebrow">ML / Risk</span><span class="article-title">Leveraging Machine Learning to Combat Profit Shifting Pricing</span></a>
+      </div>
+    </section>
+
+    <footer>
+      Open to collaborating on data platforms, cloud transformation, and intelligent automation.
+    </footer>
+  </div>
+
+  <script src="script.min.js"></script>
+</body>
+</html>
