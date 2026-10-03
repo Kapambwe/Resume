@@ -1,0 +1,59 @@
+{
+  "name": "Abraham Kapambwe",
+  "headline": "Software Developer, Analytics Engineer, and DevOps Engineer",
+  "location": "Pretoria, South Africa",
+  "summary": "I build cloud-native systems and data platforms that turn complex operations into measurable outcomes.",
+  "updated": "2026-10-03",
+  "links": {
+    "email": "mailto:abrahamkapambwe@gmail.com",
+    "phone": "tel:+27784452333",
+    "linkedin": "https://za.linkedin.com/in/abrahamkapambwe",
+    "github": "https://github.com/Kapambwe",
+    "website": "https://kapambwe.github.io/Resume/"
+  },
+  "proof": [
+    { "value": "14+", "label": "Years of delivery" },
+    { "value": "20+", "label": "Payment providers integrated" },
+    { "value": "3", "label": "Cloud platforms in scope" }
+  ],
+  "focus": [
+    "Scalable .NET systems",
+    "Microsoft Fabric, Spark, and Power BI",
+    "DevOps, infrastructure as code, and CI/CD"
+  ],
+  "skills": {
+    "Languages & Frameworks": ["C#", ".NET", "Python", "Blazor", "ASP.NET MVC", "JavaScript"],
+    "Web & UI": ["React", "Angular", "ASP.NET Forms", "Knockout.js"],
+    "Data & Analytics": ["SQL", "Couchbase", "Apache Spark", "Databricks", "Power BI"],
+    "DevOps & Infrastructure": ["Azure DevOps", "Docker", "Kubernetes", "Terraform", "CI/CD"],
+    "Cloud & Platforms": ["Azure", "AWS", "Google Cloud", "Windows Server", "Linux"],
+    "AI & ML": ["Neo4j", "Memgraph", "NLP", "TensorFlow", "GANs"]
+  },
+  "projects": [
+    {
+      "name": "Financial Crime Intelligence Platform",
+      "type": "Featured build",
+      "impact": "Graph-first detection for hidden financial crime networks.",
+      "tags": ["Graph", "AML", "Fraud"],
+      "demo": "https://kapambwe.github.io/IntelligenceWebApp/"
+    },
+    {
+      "name": "Institutional Risk Intelligence Platform",
+      "impact": "Richer data points for sharper lending and investment decisions.",
+      "tags": ["Risk", "Lending", "Decisioning"],
+      "demo": "https://kapambwe.github.io/ConsentWebApp/"
+    },
+    {
+      "name": "Real-Time Payments Platform",
+      "impact": "High-performance payments inspired by FedNow and UPI.",
+      "tags": ["Payments", "Orleans", "Realtime"],
+      "demo": "https://kapambwe.github.io/PaymentAdminWebApp/"
+    },
+    {
+      "name": "Banking as a Service Platform",
+      "impact": "Composable financial services for faster product rollout.",
+      "tags": ["BaaS", "APIs", "Platform"],
+      "demo": "https://kapambwe.github.io/BankingFinanceWebApp/"
+    }
+  ]
+}
